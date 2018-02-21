@@ -1,0 +1,59 @@
+/* ------------------------ GENERAL ------------------------ */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 2%;
+  padding: 0px;
+  background-color: #6d7a8e;
+  color: #FFF;
+}
+
+a{
+  color: #75eacd;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #364763;
+}
+
+.left_container {
+  position: absolute;
+  display: table;
+  height: 100%;
+  margin-top: -1.5em;
+}
+
+.title {
+  height: 100%;
+  width: 100%;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+}
+
+h1{
+  font-size: 4em;
+  margin-bottom: 0px;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+.menu {
+  overflow: hidden;
+  padding: 2%;
+  font-variant: small-caps;
+  color: #9199A7;
+}
+
+.menu h2{
+  margin: 0px;
+  float: left;
+}
+
+.menu_buttons {
+  float: right; 
+}
