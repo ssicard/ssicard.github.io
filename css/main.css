@@ -75,8 +75,8 @@ a:hover {
 }
 .container{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .tile{
@@ -85,5 +85,6 @@ a:hover {
   border-style: solid;
   padding: 1%;
   width: 25%;
+  min-width: 200px;
   margin: 1%;
 }
