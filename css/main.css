@@ -88,3 +88,14 @@ a:hover {
   min-width: 200px;
   margin: 1%;
 }
+
+.centered{
+  text-align: center;
+  padding: 0% 20%;
+  font-size: 1.5em;
+}
+
+.box{
+  display: inline-block;
+  margin: 0% 10%;
+}
