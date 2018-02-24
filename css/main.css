@@ -17,6 +17,7 @@ h1{
 h4{
   font-size: 1.4em;
   color: #AAD9ED;
+  text-align: center;
 }
 
 h5{
@@ -27,7 +28,6 @@ h5{
 hr{
   color: #d3d4d1;
   width: 75%;
-  float: left;
 }
 
 a{
@@ -87,6 +87,14 @@ a:hover {
   width: 25%;
   min-width: 200px;
   margin: 1%;
+  text-align: center;
+}
+
+.tile img{
+  flex: 1 1 0;
+  max-width: -webkit-fill-available;
+  object-fit: scale-down;
+  object-position: top right;
 }
 
 .centered{
@@ -98,4 +106,8 @@ a:hover {
 .box{
   display: inline-block;
   margin: 0% 10%;
+}
+
+.small{
+  font-size:.6em;
 }
