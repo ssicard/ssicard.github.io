@@ -30,6 +30,11 @@ hr{
   width: 75%;
 }
 
+span{
+  font-size: 1em;
+  color: #7bbbd8;
+}
+
 a{
   color: #ce8be8;
   text-decoration: none;
@@ -71,7 +76,7 @@ a:hover {
 }
 
 .menu_buttons {
-  float: right; 
+  float: right;
 }
 .container{
   display: flex;
@@ -106,6 +111,11 @@ a:hover {
 .box{
   display: inline-block;
   margin: 0% 10%;
+}
+
+.large{
+  font-size:2em;
+  padding: 10% 3% 10% 3%;
 }
 
 .small{
